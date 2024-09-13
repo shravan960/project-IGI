@@ -9,26 +9,20 @@
   }
   
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+    
   }
   
   .navbar__company-brand {
-    display: flex;
-    align-items: center;
+    
   }
   
   .company-brand__name {
-    margin-left: 8px;
-    font-size: 30px;
+    
   }
   
   .navbar__nav-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    
   }
   
   .nav-link__link-list {
@@ -79,9 +73,9 @@
     color:rgb(32, 26, 26) ;
     z-index: 20;
     background: white;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
-    height: 300px;
+    height: 200px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -104,4 +98,21 @@
 
     border-radius:10px ;
     border:none ;
+}
+
+.pic{
+  position: relative;
+  background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pic-pic{
+  background-color: black;
+  color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
